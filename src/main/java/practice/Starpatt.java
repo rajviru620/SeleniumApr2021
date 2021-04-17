@@ -11,7 +11,7 @@ public class Starpatt {
 			System.out.println("");
 			
 		}
-		System.out.println("Star pattern completed");
+		System.out.println("Star pattern completed again");
 	}
 
 }
