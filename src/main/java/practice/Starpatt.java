@@ -9,7 +9,9 @@ public class Starpatt {
 				System.out.print("*");
 			}
 			System.out.println("");
+			
 		}
+		System.out.println("Star pattern completed");
 	}
 
 }
