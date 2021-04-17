@@ -56,8 +56,9 @@ public class LG_Alert {
 		System.out.println(altext.getText());
 		driver.findElementByXPath("//div[@class='swal-modal']//button").click();
 		
-		
+		System.out.println("Alert completed");
 		driver.close();
+		
 	}
 
 }
