@@ -1,0 +1,140 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-17T09:22:57.548Z",
+        "before": [
+          {
+            "result": {
+              "duration": 27664000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.preCondition()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Create Lead with only mandatory fields",
+        "description": "",
+        "id": "create-lead-functionality-in-leaftaps;create-lead-with-only-mandatory-fields;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 676000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.postCondition()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 855000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click Create Lead link",
+            "match": {
+              "location": "steps.CreateLead.click_create_lead_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 198000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter company name as \"TestLeaf\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestLeaf\"",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.CreateLead.enter_company_name_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Enter first name as \"Hari\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hari\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.CreateLead.enter_first_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Enter last name as \"Krishnan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Krishnan\"",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.CreateLead.enter_last_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2530000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click the Create Lead button",
+            "match": {
+              "location": "steps.CreateLead.click_CreateLead_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "LeadPage should be displayed",
+            "match": {
+              "location": "steps.CreateLead.leadPage_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Create Lead functionality in Leaftaps",
+    "description": "",
+    "id": "create-lead-functionality-in-leaftaps",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/TC002_CreateLead.feature",
+    "tags": []
+  }
+]

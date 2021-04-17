@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="33.11">
+<testcase classname="Create Lead functionality in Leaftaps" name="Create Lead with only mandatory fields" time="32.442">
+<system-out><![CDATA[And Click Create Lead link..................................................passed
+And Enter company name as "TestLeaf"........................................passed
+And Enter first name as "Hari"..............................................passed
+And Enter last name as "Krishnan"...........................................passed
+When Click the Create Lead button...........................................passed
+Then LeadPage should be displayed...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
